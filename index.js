@@ -3,9 +3,7 @@ const port = 3000;
 
 const app = express();
 
-app.get("/", function (req, res) {
-  res.send("<h1>hello</h1>");
-});
+app.use("/", require("./routes"));
 
 app.listen(port, function (err) {
   if (err) {
