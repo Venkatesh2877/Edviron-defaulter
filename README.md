@@ -11,3 +11,6 @@ Installing NPM dependencies npm install
 Then simply start your app npm start.
 
 Pass the schoolID in the params like http://localhost:3000/api/v1/defaulter?schoolId=63ff2138742d8bdfbc91d5c9
+
+
+API endpoint:  http://54.161.19.96:3000/api/v1/defaulter?schoolId=63ff2138742d8bdfbc91d5c9
